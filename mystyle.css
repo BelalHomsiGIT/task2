@@ -1,0 +1,62 @@
+
+body{
+    background-color: rgb(165, 163, 163);
+}
+body > h4{
+    display: inline-block;
+    color: rgb(4, 66, 4);
+    margin-left: 80px;
+}
+.task2{
+    color: rgb(49, 77, 32);
+    font-size: x-small;    
+}
+.register{
+    width: 80%;
+    padding: 20px;
+    font-size: smaller;
+    border: 1px outset rgb(140, 175, 228);
+    border-radius: 5px; 
+    background-color: black;
+    background-image: url("xteam.jpg"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title{
+    color: rgb(241, 230, 215);
+    text-align: center;
+}
+.frm{
+    margin-left: 550px;
+    padding: 25px;
+    border: 0.1px solid rgb(63, 56, 56);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(192, 238, 150, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.err{
+    height: 18px;
+}
+.trailer{
+    margin-top: 15px;
+    color: rgb(241, 230, 215);
+    text-align: center;
+}
+.trailer > p {
+    font-size: smaller;
+    margin-top: 10px;
+}
+.spn{
+    color: rgb(52, 250, 52);
+}
+.pass-form{
+    display: inline-block;
+}
+.pass-form input[type=text]{
+    display: none;
+}
+.pass-form .ok{
+    width: 80px;
+    display: none;
+}
+
